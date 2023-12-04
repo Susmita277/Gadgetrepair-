@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #ffffff;
+}
+li{
+    list-style: none;
+}
+:root{
+    --primarycolor:#43c3ea;
+    --secondarycolor:#262626;
+    --primaryfont:Poppins;
+    --bluishgrey: #5e5e6e;
+    --exlg: 3rem;
+    --semiex: 2.5rem;
+    --lgsize: 2rem;
+    --semilg: 1.5rem;
+    --regsize: 1rem;
+    --midsize: 0.9rem;
+    --smsize: 0.8rem;
+
+}
+
+.adjust-width{
+    width: 100%;
+    font-family: var(--primaryfont);
+}
+.fa-facebook,.fa-twitter,.fa-google-plus-g,.fa-linkedin-in{
+    color: white;
+}
+

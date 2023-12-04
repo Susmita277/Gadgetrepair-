@@ -1,0 +1,18 @@
+[33mDescription:[39m
+  Serve the application on the PHP development server
+
+[33mUsage:[39m
+  serve [options]
+
+[33mOptions:[39m
+  [32m    --host[=HOST][39m     The host address to serve the application on[33m [default: "127.0.0.1"][39m
+  [32m    --port[=PORT][39m     The port to serve the application on
+  [32m    --tries[=TRIES][39m   The max number of ports to attempt to serve from[33m [default: 10][39m
+  [32m    --no-reload[39m       Do not reload the development server on .env file changes
+  [32m-h, --help[39m            Display help for the given command. When no command is given display help for the [32mlist[39m command
+  [32m-q, --quiet[39m           Do not output any message
+  [32m-V, --version[39m         Display this application version
+  [32m    --ansi|--no-ansi[39m  Force (or disable --no-ansi) ANSI output
+  [32m-n, --no-interaction[39m  Do not ask any interactive question
+  [32m    --env[=ENV][39m       The environment the command should run under
+  [32m-v|vv|vvv, --verbose[39m  Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug
